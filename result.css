@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: goldenrod;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0303fc;
+  }
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #b6e00e;
+  }
+  
+  #result {
+    margin-top: 20px;
+  }
+  
+  #result h2 {
+    color: #333;
+  }
+  
+  #result p {
+    color: #555;
+  }
+  
+  .grade-distinct {
+    color: #27ae60;
+  }
+  
+  .grade-first {
+    color: #2980b9;
+  }
+  
+  .grade-second {
+    color: #f39c12;
+  }
+  
+  .grade-third {
+    color: #e74c3c;
+  }
+ /* Modal */
+ .modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+  }
+  
+  .close {
+    color: #888;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-content p {
+    margin: 10px 0;
+  }
+  
+  .modal-content ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .modal-content ul li {
+    margin-bottom: 5px;
+    list-style: none;
+  }
+  
+  .modal-content ul li:before {
+    content: "•";
+    color: #27ae60;
+    display: inline-block;
+    width: 10px;
+    margin-left: -20px;
+  }
+ 
+  .modal-content .failed-message {
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
+  
+  #result p.failed-message {
+    color: #e74c3c;
+  }
